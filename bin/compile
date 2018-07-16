@@ -78,7 +78,7 @@ topic "Fetching $PACKAGE_NAME"
 curl -s -L -z $PACKAGE_FILE -o $PACKAGE_FILE $PACKAGE 2>&1 | indent
 
 topic "Installing $PACKAGE_NAME"
-dpkg -x $PACKAGE_FILE $BUILD_DIR/.apt/
+dpkg -i $PACKAGE_FILE $BUILD_DIR/.apt/
 
 topic "Fetching dependencies"
 apt-get $APT_OPTIONS -y --force-yes -f -d install | indent
