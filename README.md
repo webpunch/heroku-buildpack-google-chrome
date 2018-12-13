@@ -8,7 +8,7 @@ Selenium) require an X window server to be active. For those cases, please
 see the [heroku-xvfb-google-chrome buildpack](https://github.com/heroku/heroku-buildpack-xvfb-google-chrome)
 instead.
 
-This repository was modified to use Google Chromium ver. 70.0.3538.110-1_amd64
+This repository was modified to use Google Chrome ver. 70.0.3538.110-1_amd64
 
 ## Channels
 
